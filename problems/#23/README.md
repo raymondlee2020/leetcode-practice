@@ -21,6 +21,6 @@ Space Complexity: O(n)
 
 Time Complexity: O(n log l)
 
-Space Complexity: O(log l)
+Space Complexity: O(n)
 
 - Divide and conquer.
