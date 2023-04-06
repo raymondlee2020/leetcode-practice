@@ -6,7 +6,7 @@ Time Complexity: O(n)
 
 Space Complexity: O(n)
 
-- DFS concept application
+- DFS.
 
 ## V1
 
@@ -14,4 +14,4 @@ Time Complexity: O(n)
 
 Space Complexity: O(n)
 
-- BFS concept application
+- BFS.
