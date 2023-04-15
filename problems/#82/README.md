@@ -7,3 +7,11 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 
 - Two pointers.
+
+## V2
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+- Optimize detail.
