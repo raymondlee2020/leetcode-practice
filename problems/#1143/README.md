@@ -12,7 +12,7 @@ Space Complexity: O(m * n)
     - dp[i][0] = 1 if text1[i] == text2[0] else dp[i - 1][0].
     - dp[0][j] = 1 if text1[0] == text2[j] else dp[0][j - 1].
 - State-transition equation:
-    - dp[i][j] = dp[i - 1][j - 1] + 1 if text1[i] == text2[j] elsemax(dp[i - 1][j], dp[i][j - 1]).
+    - dp[i][j] = dp[i - 1][j - 1] + 1 if text1[i] == text2[j] else max(dp[i - 1][j], dp[i][j - 1]).
 
 ## V2
 
