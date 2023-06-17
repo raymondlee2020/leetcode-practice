@@ -4,6 +4,6 @@
 
 Time Complexity: O(m)
 
-Space Complexity: O(n*m)
+Space Complexity: O(n * m)
 
 - Linked list.
