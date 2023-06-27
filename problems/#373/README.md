@@ -7,3 +7,11 @@ Time Complexity: O(m * n * log k)
 Space Complexity: O(k)
 
 - Priority queue.
+
+## V2
+
+Time Complexity: O(n + k  log k)
+
+Space Complexity: O(k)
+
+- Priority queue.
