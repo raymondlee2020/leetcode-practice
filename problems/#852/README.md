@@ -2,8 +2,8 @@
 
 ## V1
 
-Time Complexity: O(n)
+Time Complexity: O(log n)
 
 Space Complexity: O(1)
 
-- Two pointers.
+- Binary search.
