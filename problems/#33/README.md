@@ -16,3 +16,21 @@ Time Complexity: O(log n)
 Space Complexity: O(log n)
 
 - The half of the array must be an unrotated, sorted array, so we can ensure the target is in it or not.
+
+## V3
+
+Time Complexity: O(log n)
+
+Space Complexity: O(1)
+
+- Binary search.
+- Find the deviation.
+
+## V4
+
+Time Complexity: O(log n)
+
+Space Complexity: O(1)
+
+- Binary search.
+- Iterative.
