@@ -12,3 +12,10 @@ Space Complexity: O(n)
 - State-transition equation:
     - dp[i] = max(for 0 <= j < i, dp[j] if (nums[j] < nums[i]) else -1).
 
+## V2
+
+Time Complexity: O(n log n)
+
+Space Complexity: O(n)
+
+- Binary search.
