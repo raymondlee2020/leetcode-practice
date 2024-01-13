@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int minSteps(string s, string t) {
+        vector<int> cnt(26, 0);
+        for (const auto& c: s) {
+            ++cnt[c - 'a'];
+        }
+        for (const auto& c: t) {
+            if (cnt[c - 'a'] == 0) {
+                continue;
+            }
+            --cnt[c - 'a'];
+        }
+        return accumulate(cnt.begin(), cnt.end(), 0);
+    }
+};
