@@ -16,3 +16,12 @@ Space Complexity: O(log n)
 
 - DFS.
 - Check if subtree has p or q.
+
+## V3
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+- BST traversal.
+
