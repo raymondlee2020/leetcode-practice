@@ -1,4 +1,4 @@
-# Problem 287 - Find the Duplicate Number
+# Problem 234 - Palindrome Linked List
 
 ## V1
 
@@ -7,13 +7,13 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 
 - Linked list.
-- Cycle detection.
+- Reverse.
 
-## V1
+## V2
 
 Time Complexity: O(n)
 
 Space Complexity: O(n)
 
 - Linked list.
-- Hash table.
+- Recursive.
