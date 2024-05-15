@@ -3,25 +3,25 @@ type costPerf struct {
 	Quality float64
 }
 
-type minHeap []float64
+type maxHeap []float64
 
-func (m minHeap) Len() int {
+func (m maxHeap) Len() int {
 	return len(m)
 }
 
-func (m minHeap) Swap(i, j int) {
+func (m maxHeap) Swap(i, j int) {
 	m[i], m[j] = m[j], m[i]
 }
 
-func (m minHeap) Less(i, j int) bool {
+func (m maxHeap) Less(i, j int) bool {
 	return m[i] > m[j]
 }
 
-func (m *minHeap) Push(x interface{}) {
+func (m *maxHeap) Push(x interface{}) {
 	*m = append(*m, x.(float64))
 }
 
-func (m *minHeap) Pop() interface{} {
+func (m *maxHeap) Pop() interface{} {
 	old := *m
 	n := len(old)
 	x := old[n-1]
@@ -32,7 +32,7 @@ func (m *minHeap) Pop() interface{} {
 
 func mincostToHireWorkers(quality []int, wage []int, k int) float64 {
 	n, qsum := len(quality), float64(0)
-	cands, pq := make([]*costPerf, n), &minHeap{}
+	cands, pq := make([]*costPerf, n), &maxHeap{}
 	for i := 0; i < n; i++ {
 		cands[i] = &costPerf{float64(wage[i]) / float64(quality[i]), float64(quality[i])}
 	}
