@@ -4,7 +4,7 @@
 
 Time Complexity: O(n log n)
 
-Space Complexity: O(1)
+Space Complexity: O(log n)
 
 - Heap sort.
 
@@ -15,3 +15,11 @@ Time Complexity: O(n)
 Space Complexity: O(range of element)
 
 - Bucket sort.
+
+## V3
+
+Time Complexity: O(n log n)
+
+Space Complexity: O(log n)
+
+- Heap sort.
