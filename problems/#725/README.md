@@ -7,3 +7,11 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 
 - Linked list.
+
+## V2
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+- Linked list.
