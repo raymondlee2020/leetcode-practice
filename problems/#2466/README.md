@@ -11,3 +11,11 @@ Space Complexity: O(n)
     - dp[0] = 1.
 - State-transition equation:
     - dp[i] = (dp[i - zero] if i - zero >= 0 else 0) + (dp[i - one] if i - one >= 0 else 0).
+
+## V2
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+- Go version.
